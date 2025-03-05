@@ -1,68 +1,59 @@
-Project README
+# 📊 Financial Indices Analysis Across Political Mandates  
 
-Project Overview
+## 📌 Project Overview  
 
-This project focuses on the analysis of financial indices during specific political mandates. The main objectives are:
+This project analyzes financial indices during different U.S. presidential mandates, with a focus on:  
 
-Compare the evolution of financial indices during Obama’s mandate (2013) and Trump’s first mandate (2017).
+✅ **Comparing financial index trends** during Obama's second term (2013) and Trump’s first term (2017).  
+✅ **Assessing the market behavior** in Trump’s current term (2025) to identify whether it follows past trends.  
 
-Analyze whether Trump’s current mandate (2025) follows trends observed in previous mandates.
+The dataset includes:  
+- 📊 Opening, closing, highest, and lowest prices of indices.  
+- 📈 Trading volumes over the selected periods.  
 
-Key datasets include financial index data spanning these periods, with details on opening, closing, highest, and lowest prices, as well as trading volumes.
+## 🚀 Features  
 
-Features
+### 🔹 **Data Cleaning & Preparation**  
+- 🔄 Standardization of formats (e.g., datetime for dates, float for financial values).  
+- 🗂️ Addition of a **Mandate** column to classify data into:  
+  - Obama (2013)  
+  - Trump 1 (2017)  
+  - Trump 2 (2025)  
 
-Data Cleaning and Preparation
+### 🔹 **Analysis Objectives**  
+- 📉 Track the evolution of financial indices over time.  
+- 📊 Compare market trends across mandates.  
+- 🔗 Identify correlations between financial indices and political events.  
 
-Standardization of data formats (e.g., datetime for dates, float for financial values).
+### 🔹 **Visualizations in Power BI**  
+- 📌 **Line Charts** – To observe index performance over time.  
+- 📌 **Stacked Bar Charts** – To compare trading volumes across mandates and indices.  
+- 📌 **Heatmaps** – To reveal patterns in market activity (weekly/monthly).  
+- 📌 **Scatter Plots** – To analyze the relationship between trading volume and price volatility.  
 
-Addition of a Mandate column to distinguish between Obama (2013), Trump 1 (2017), and Trump 2 (2025).
+## ⚙️ Requirements  
 
-Analysis Objectives
+### 🐍 **Python** (for data processing)  
+- `pandas`  
+- `numpy`  
+- `matplotlib` (for preliminary visualizations)  
 
-Evolution of financial indices over time.
+### 📊 **Power BI** (for dashboard creation & advanced visualization)  
 
-Comparison of trends between mandates.
+## 🔧 How to Use  
 
-Identification of correlations between financial indices and political events.
+### 1️⃣ **Prepare the Data**  
+📌 Run the provided Python script to clean and preprocess raw datasets.  
+📌 Ensure the **Mandate** column correctly classifies each entry based on the respective date ranges.  
 
-Visualizations in Power BI
+### 2️⃣ **Load Data into Power BI**  
+📌 Import the cleaned dataset into Power BI.  
+📌 Establish relationships between tables (if multiple datasets exist).  
 
-Line Charts: To observe index performance over time.
+### 3️⃣ **Create Visualizations**  
+📌 Use the provided templates or follow instructions to generate key visualizations.  
+📌 Explore additional insights using filters for indices, mandates, and date ranges.  
 
-Stacked Bar Charts: To compare trading volumes by mandate and index.
+---
 
-Heatmaps: To identify patterns in market activity by week or month.
-
-Scatter Plots: To correlate volume and price volatility.
-
-Requirements
-
-Python
-
-Libraries: pandas, numpy, matplotlib (for preliminary analysis).
-
-Power BI
-
-For advanced data visualization and dashboards.
-
-How to Use
-
-Prepare the Data:
-
-Use the Python script provided to clean and preprocess the raw datasets.
-
-Ensure the Mandate column is correctly assigned based on the date ranges for each mandate.
-
-Load Data into Power BI:
-
-Import the cleaned datasets into Power BI.
-
-Ensure relationships between tables (if multiple) are correctly established.
-
-Create Visualizations:
-
-Use provided templates or instructions to replicate key visualizations.
-
-Explore additional insights using filters for indices, mandates, or date ranges.
-
+🚀 **Feel free to contribute, suggest improvements, or fork this repository!**  
